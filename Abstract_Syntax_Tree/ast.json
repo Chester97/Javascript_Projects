@@ -1,0 +1,105 @@
+{
+    "ast": {
+      "nodeType": "element",
+      "tagName": "section",
+      "attributes": [
+        {
+          "name": "class",
+          "value": "container"
+        }
+      ],
+      "children": [
+        {
+          "nodeType": "element",
+          "tagName": "img",
+          "attributes": [
+            {
+              "name": "class",
+              "value": "Person_Photo"
+            },
+            {
+              "name": "src",
+              "value": "https://picsum.photos/200/300"
+            },
+            {
+              "name": "alt",
+              "value": "Person Photo"
+            }
+          ]
+        },
+        {
+          "nodeType": "element",
+          "tagName": "div",
+          "attributes": [
+            {
+              "name": "class",
+              "value": "personContainer__details"
+            }
+          ],
+          "children": [
+            {
+              "nodeType": "element",
+              "tagName": "p",
+              "attributes": [
+                {
+                  "name": "class",
+                  "value": "person__fullName"
+                }
+              ],
+              "children": [
+                {
+                  "nodeType": "text",
+                  "value": "Steve jobs"
+                }
+              ]
+            },
+            {
+              "nodeType": "element",
+              "tagName": "p",
+              "attributes": [
+                {
+                  "name": "class",
+                  "value": "person__name"
+                }
+              ],
+              "children": [
+                {
+                  "nodeType": "text",
+                  "value": "Name: Steve"
+                }
+              ]
+            },
+            {
+              "nodeType": "element",
+              "tagName": "h1",
+              "attributes": [
+                {
+                  "name": "class",
+                  "value": "header__text"
+                }
+              ],
+              "children": [
+                {
+                  "nodeType": "element",
+                  "tagName": "a",
+                  "attributes": [
+                    {
+                      "name": "href",
+                      "value": "https://youtube.com"
+                    }
+                  ],
+                  "children": [
+                    {
+                      "nodeType": "text",
+                      "value": "Look up more"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
