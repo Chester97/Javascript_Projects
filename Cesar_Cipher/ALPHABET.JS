@@ -1,4 +1,4 @@
-export const ALPHABET = [
+const ALPHABET = [
   "A",
   "B",
   "C",
@@ -26,3 +26,5 @@ export const ALPHABET = [
   "Y",
   "Z"
 ];
+
+module.exports = ALPHABET

@@ -1,4 +1,4 @@
-import { ALPHABET } from 'ALPHABET.JS'
+const ALPHABET = require('./ALPHABET.JS');
 
 function cesar36(x) {
   const arrayOfLetters = [...x];
